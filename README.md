@@ -1,6 +1,6 @@
 # TeoriaComp
 
-###Relatório
+##Relatório
 
 O problema em questão é uma simples situação de uma padaria que está com a promoção de aplicar 15% de desconto em pedidos acima de R$50, caso a conta esteja abaixo dessa faixa, a conta não terá desconto algum
 
