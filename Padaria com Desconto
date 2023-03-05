@@ -1,4 +1,4 @@
-#Uma padaria está com uma promoção de 15% de desconto para pedidos acima de R$ 50
+# Uma padaria está com uma promoção de 15% de desconto para pedidos acima de R$ 50
 
 const valores = [10, 20, 10, 5];
 
