@@ -1,0 +1,17 @@
+#Uma padaria está com uma promoção de 15% de desconto para pedidos acima de R$ 50
+
+const valores = [10, 20, 10, 5];
+
+const soma = valores.reduce((acumulador, valorAtual) => {
+  return acumulador + valorAtual;
+}, 0);
+
+if(soma > 50.0){
+const desconto = soma * 0.15;
+
+const total = soma - desconto;
+
+console.log(`R$ ${total.toFixed(2)}`);
+}else{
+console.log(`R$ ${soma.toFixed(2)}`)
+}
