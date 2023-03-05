@@ -1,0 +1,16 @@
+#um professor deseja checar a média final dos alunos de sua turma, tendo por base que para o aluno ser aprovado ele deve apresetar
+uma média igual ou superior a 7.0
+
+#os valores da "notas" pode ser alterado de acordo com as notas do aluno
+
+const valores = [3.0, 10.0, 9.6, 5.2]; 
+
+const media = valores.reduce((acumulador, valorAtual) => {
+  return acumulador + valorAtual;
+}, 0) / valores.length;
+
+if (media >= 7.0) {
+  console.log(`Média: ${media.toFixed(2)}. Aprovado`);
+} else {
+  console.log(`Média: ${media.toFixed(2)}. Reprovado`);
+}
